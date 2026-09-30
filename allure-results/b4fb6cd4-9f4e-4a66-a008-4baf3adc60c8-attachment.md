@@ -1,0 +1,480 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: WindowHandling.spec.js >> Window Handling
+- Location: tests\WindowHandling.spec.js:3:5
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link "Fork me on GitHub":
+      - /url: https://github.com/tourdedave/the-internet
+      - img "Fork me on GitHub" [ref=e5]
+    - generic [ref=e7]:
+      - heading "File Downloader" [level=3] [ref=e8]
+      - link "r2_test_upload_bmwz_71o.txt" [ref=e9]:
+        - /url: download/r2_test_upload_bmwz_71o.txt
+      - link "random_data_18.txt" [ref=e10]:
+        - /url: download/random_data_18.txt
+      - link "referto_sperimentale_CX881.txt" [ref=e11]:
+        - /url: download/referto_sperimentale_CX881.txt
+      - link "rf_upload_0s_j_f58.txt" [ref=e12]:
+        - /url: download/rf_upload_0s_j_f58.txt
+      - link "textfile.txt" [ref=e13]:
+        - /url: download/textfile.txt
+      - link "upload-sample.txt" [ref=e14]:
+        - /url: download/upload-sample.txt
+      - link "sample_JYZVCR.txt" [ref=e15]:
+        - /url: download/sample_JYZVCR.txt
+      - link "bench-upload.txt" [ref=e16]:
+        - /url: download/bench-upload.txt
+      - link "examplefile.json" [ref=e17]:
+        - /url: download/examplefile.json
+      - link "data.csv" [ref=e18]:
+        - /url: download/data.csv
+      - link "r2_test_upload_ab3mkq6p.txt" [ref=e19]:
+        - /url: download/r2_test_upload_ab3mkq6p.txt
+      - link "sample-1mb-test-file.dat" [ref=e20]:
+        - /url: download/sample-1mb-test-file.dat
+      - link "image-compressed.pdf" [ref=e21]:
+        - /url: download/image-compressed.pdf
+      - link "chooser-upload.txt" [ref=e22]:
+        - /url: download/chooser-upload.txt
+      - link "captura.png" [ref=e23]:
+        - /url: download/captura.png
+      - link "test-upload.txt" [ref=e24]:
+        - /url: download/test-upload.txt
+      - link "tmp3soc7qq4.txt" [ref=e25]:
+        - /url: download/tmp3soc7qq4.txt
+      - link "buffer-file.txt" [ref=e26]:
+        - /url: download/buffer-file.txt
+      - link "webdriverIO.png" [ref=e27]:
+        - /url: download/webdriverIO.png
+      - link "web-skill-check-20260930.txt" [ref=e28]:
+        - /url: download/web-skill-check-20260930.txt
+      - link "tmpmaqga2jk.txt" [ref=e29]:
+        - /url: download/tmpmaqga2jk.txt
+      - link "archivo_prueba.txt" [ref=e30]:
+        - /url: download/archivo_prueba.txt
+      - link "sample.pdf" [ref=e31]:
+        - /url: download/sample.pdf
+      - link "SantiyObservn.odt" [ref=e32]:
+        - /url: download/SantiyObservn.odt
+      - link "upload-17628522055331900173.txt" [ref=e33]:
+        - /url: download/upload-17628522055331900173.txt
+      - link "upload-1790778582832.txt" [ref=e34]:
+        - /url: download/upload-1790778582832.txt
+      - link "sample.txt" [ref=e35] [cursor=pointer]:
+        - /url: download/sample.txt
+      - link "r2_upload_d7_0993j.txt" [ref=e36]:
+        - /url: download/r2_upload_d7_0993j.txt
+      - link "labsuser.pem" [ref=e37]:
+        - /url: download/labsuser.pem
+      - link "tmp9qo6ypbw.txt" [ref=e38]:
+        - /url: download/tmp9qo6ypbw.txt
+      - link "upload-16926534101972738963.txt" [ref=e39]:
+        - /url: download/upload-16926534101972738963.txt
+      - link "r2_test_upload_sdv9vyf8.txt" [ref=e40]:
+        - /url: download/r2_test_upload_sdv9vyf8.txt
+      - link "tmphd5v837s.txt" [ref=e41]:
+        - /url: download/tmphd5v837s.txt
+      - link "experience.txt" [ref=e42]:
+        - /url: download/experience.txt
+      - link "conglomcorp-price-list-roundtrip.txt" [ref=e43]:
+        - /url: download/conglomcorp-price-list-roundtrip.txt
+      - link "tmp8jcfn8pu.txt" [ref=e44]:
+        - /url: download/tmp8jcfn8pu.txt
+      - link "playwright-upload-1790777651908753600.txt" [ref=e45]:
+        - /url: download/playwright-upload-1790777651908753600.txt
+      - link "Excel.xlsx" [ref=e46]:
+        - /url: download/Excel.xlsx
+      - link "file.json" [ref=e47]:
+        - /url: download/file.json
+      - link "christopher-campbell-rDEOVtE7vOs-unsplash.jpg" [ref=e48]:
+        - /url: download/christopher-campbell-rDEOVtE7vOs-unsplash.jpg
+      - link "r2_test_upload_dkb9xr1j.txt" [ref=e49]:
+        - /url: download/r2_test_upload_dkb9xr1j.txt
+      - link "hello.txt" [ref=e50]:
+        - /url: download/hello.txt
+      - link "gemini-code-1790453238731.txt" [ref=e51]:
+        - /url: download/gemini-code-1790453238731.txt
+      - link "some-file.txt" [ref=e52]:
+        - /url: download/some-file.txt
+      - link "playwright-sample-upload-1790744444425.txt" [ref=e53]:
+        - /url: download/playwright-sample-upload-1790744444425.txt
+      - link "up.txt" [ref=e54]:
+        - /url: download/up.txt
+      - link "car.jpeg" [ref=e55]:
+        - /url: download/car.jpeg
+      - link "upload_me.txt" [ref=e56]:
+        - /url: download/upload_me.txt
+      - link "my répört file.txt" [ref=e57]:
+        - /url: download/my répört file.txt
+      - link "file_1790768245580.pdf" [ref=e58]:
+        - /url: download/file_1790768245580.pdf
+      - link "probe_snapshot_for_ai.py" [ref=e59]:
+        - /url: download/probe_snapshot_for_ai.py
+      - link "r2_test_upload_aii80ft8.txt" [ref=e60]:
+        - /url: download/r2_test_upload_aii80ft8.txt
+      - link "r2_test_upload_p4eg8zx8.txt" [ref=e61]:
+        - /url: download/r2_test_upload_p4eg8zx8.txt
+      - link "hunt.txt" [ref=e62]:
+        - /url: download/hunt.txt
+      - link "tmpnfllhy4o.txt" [ref=e63]:
+        - /url: download/tmpnfllhy4o.txt
+      - link "rf_upload_a89tdidt.txt" [ref=e64]:
+        - /url: download/rf_upload_a89tdidt.txt
+      - link "pw-download-munxjm68-0.txt" [ref=e65]:
+        - /url: download/pw-download-munxjm68-0.txt
+      - link "passport.pdf" [ref=e66]:
+        - /url: download/passport.pdf
+      - link "upload.txt" [ref=e67]:
+        - /url: download/upload.txt
+      - link "test copy.txt" [ref=e68]:
+        - /url: download/test copy.txt
+      - link "e2e.txt" [ref=e69]:
+        - /url: download/e2e.txt
+      - link "503_How a web application works step (1).docx" [ref=e70]:
+        - /url: download/503_How a web application works step (1).docx
+      - link "NHI_Card_4.2├ù4.7cm_500x560px.png" [ref=e71]:
+        - /url: download/NHI_Card_4.2├ù4.7cm_500x560px.png
+      - link "test-upload.png" [ref=e72]:
+        - /url: download/test-upload.png
+      - link "playwright-sample-upload-1790744325660.txt" [ref=e73]:
+        - /url: download/playwright-sample-upload-1790744325660.txt
+      - link "archivo-de-prueba.txt" [ref=e74]:
+        - /url: download/archivo-de-prueba.txt
+      - link "tmp1upwmr1e.txt" [ref=e75]:
+        - /url: download/tmp1upwmr1e.txt
+      - link "4dc47d85-0d7e-42a6-8a00-2e7ef96d33ac.txt" [ref=e76]:
+        - /url: download/4dc47d85-0d7e-42a6-8a00-2e7ef96d33ac.txt
+      - link "LambdaTest.txt" [ref=e77]:
+        - /url: download/LambdaTest.txt
+      - link "practice-upload-1764865959187711151.txt" [ref=e78]:
+        - /url: download/practice-upload-1764865959187711151.txt
+      - link "pii_test_postman_collection.json" [ref=e79]:
+        - /url: download/pii_test_postman_collection.json
+      - link "eval-upload.txt" [ref=e80]:
+        - /url: download/eval-upload.txt
+      - link "upload_sample.txt" [ref=e81]:
+        - /url: download/upload_sample.txt
+      - link "rf_upload_gtx_rw6v.txt" [ref=e82]:
+        - /url: download/rf_upload_gtx_rw6v.txt
+      - link "bb.txt" [ref=e83]:
+        - /url: download/bb.txt
+      - link "upload-13160410740574847680.txt" [ref=e84]:
+        - /url: download/upload-13160410740574847680.txt
+      - link "sample.json" [ref=e85]:
+        - /url: download/sample.json
+      - link "Screenshot 2026-09-24 163409.png" [ref=e86]:
+        - /url: download/Screenshot 2026-09-24 163409.png
+      - link "tmp_hxwoh39.txt" [ref=e87]:
+        - /url: download/tmp_hxwoh39.txt
+      - link "Republican.txt" [ref=e88]:
+        - /url: download/Republican.txt
+      - link "test_data_leak.txt" [ref=e89]:
+        - /url: download/test_data_leak.txt
+      - link "evidence.txt" [ref=e90]:
+        - /url: download/evidence.txt
+      - link "Refund - Test Plan.docx" [ref=e91]:
+        - /url: download/Refund - Test Plan.docx
+      - link "tmpcumx9dtk.txt" [ref=e92]:
+        - /url: download/tmpcumx9dtk.txt
+      - link "heading-check.txt" [ref=e93]:
+        - /url: download/heading-check.txt
+      - link "chooser-note.txt" [ref=e94]:
+        - /url: download/chooser-note.txt
+      - link "1-upload-diagnostic.pdf" [ref=e95]:
+        - /url: download/1-upload-diagnostic.pdf
+      - link "Screenshot 2026-09-23 212536.png" [ref=e96]:
+        - /url: download/Screenshot 2026-09-23 212536.png
+      - link "r2_test_upload_nq4tv2kd.txt" [ref=e97]:
+        - /url: download/r2_test_upload_nq4tv2kd.txt
+      - link "sample.bin" [ref=e98]:
+        - /url: download/sample.bin
+      - link "webbench.txt" [ref=e99]:
+        - /url: download/webbench.txt
+      - link "ChatGPT Image Sep 27, 2026, 03_19_32 PM.png" [ref=e100]:
+        - /url: download/ChatGPT Image Sep 27, 2026, 03_19_32 PM.png
+      - link "checkup-1790744792-0m4m.txt" [ref=e101]:
+        - /url: download/checkup-1790744792-0m4m.txt
+      - link "playwright-upload.txt" [ref=e102]:
+        - /url: download/playwright-upload.txt
+      - link "file_1790768269079.pdf" [ref=e103]:
+        - /url: download/file_1790768269079.pdf
+      - link "playwright.png" [ref=e104]:
+        - /url: download/playwright.png
+      - link "r2_test_upload_offvrrt1.txt" [ref=e105]:
+        - /url: download/r2_test_upload_offvrrt1.txt
+      - link "tmp00etam6p.txt" [ref=e106]:
+        - /url: download/tmp00etam6p.txt
+      - link "conglomcorp-price-list-upload.txt" [ref=e107]:
+        - /url: download/conglomcorp-price-list-upload.txt
+      - link "pic1.png" [ref=e108]:
+        - /url: download/pic1.png
+      - link "1-neutral-upload-test.txt" [ref=e109]:
+        - /url: download/1-neutral-upload-test.txt
+      - link "round7-upload-probe.txt" [ref=e110]:
+        - /url: download/round7-upload-probe.txt
+      - link "playwright-test.txt" [ref=e111]:
+        - /url: download/playwright-test.txt
+      - link "TextDoc.txt" [ref=e112]:
+        - /url: download/TextDoc.txt
+      - link "dummy_test_file_genl_PMOLGeneralNelson_TestFile_new_txt_45031009_GENNEL04_20250617015141173_39873245_20250617015423052.xml" [ref=e113]:
+        - /url: download/dummy_test_file_genl_PMOLGeneralNelson_TestFile_new_txt_45031009_GENNEL04_20250617015141173_39873245_20250617015423052.xml
+      - link "r2_test_upload_phtx8z79.txt" [ref=e114]:
+        - /url: download/r2_test_upload_phtx8z79.txt
+      - link "r2_upload_uo9hvc4k.txt" [ref=e115]:
+        - /url: download/r2_upload_uo9hvc4k.txt
+      - link "limb-probe.txt" [ref=e116]:
+        - /url: download/limb-probe.txt
+      - link "practice-upload-10429678822183184070.txt" [ref=e117]:
+        - /url: download/practice-upload-10429678822183184070.txt
+      - link "outline-note.txt" [ref=e118]:
+        - /url: download/outline-note.txt
+      - link "Screenshot 2023-12-27 133459.png" [ref=e119]:
+        - /url: download/Screenshot 2023-12-27 133459.png
+      - link "AlgoTest_Conversation.docx" [ref=e120]:
+        - /url: download/AlgoTest_Conversation.docx
+      - link "t1.txt" [ref=e121]:
+        - /url: download/t1.txt
+      - link "testfile.pdf" [ref=e122]:
+        - /url: download/testfile.pdf
+      - link "tab-upload-test.txt" [ref=e123]:
+        - /url: download/tab-upload-test.txt
+      - link "testImage.jpg" [ref=e124]:
+        - /url: download/testImage.jpg
+      - link "hands-upload.txt" [ref=e125]:
+        - /url: download/hands-upload.txt
+      - link "invoice.csv" [ref=e126]:
+        - /url: download/invoice.csv
+      - link "webdrill-upload.txt" [ref=e127]:
+        - /url: download/webdrill-upload.txt
+      - link "H001Ctx00.pdf" [ref=e128]:
+        - /url: download/H001Ctx00.pdf
+      - link "1-upload_probe.txt" [ref=e129]:
+        - /url: download/1-upload_probe.txt
+      - link "sample_lm9s8k.txt" [ref=e130]:
+        - /url: download/sample_lm9s8k.txt
+      - link "Obsrvn_03.png" [ref=e131]:
+        - /url: download/Obsrvn_03.png
+      - link "PDFFile.pdf" [ref=e132]:
+        - /url: download/PDFFile.pdf
+      - link "images.jpeg" [ref=e133]:
+        - /url: download/images.jpeg
+      - link "alpha.txt" [ref=e134]:
+        - /url: download/alpha.txt
+      - link "training.txt" [ref=e135]:
+        - /url: download/training.txt
+      - link "kaneqafile.txt" [ref=e136]:
+        - /url: download/kaneqafile.txt
+      - link "r2_test_upload_t67d9ffs.txt" [ref=e137]:
+        - /url: download/r2_test_upload_t67d9ffs.txt
+      - link "demoFile.docx" [ref=e138]:
+        - /url: download/demoFile.docx
+      - link "Images.txt" [ref=e139]:
+        - /url: download/Images.txt
+      - link "GEWAN APPLICATION V2.pdf" [ref=e140]:
+        - /url: download/GEWAN APPLICATION V2.pdf
+      - link "notepad .exe" [ref=e141]:
+        - /url: download/notepad  .exe
+      - link "2026_09_28_ATT_Playwright_Day_16.pdf" [ref=e142]:
+        - /url: download/2026_09_28_ATT_Playwright_Day_16.pdf
+      - link "marketplace-accept-20260930.png" [ref=e143]:
+        - /url: download/marketplace-accept-20260930.png
+      - link "anger.jpeg" [ref=e144]:
+        - /url: download/anger.jpeg
+      - link "selenium-snapshot.png" [ref=e145]:
+        - /url: download/selenium-snapshot.png
+      - link "DocFile.doc" [ref=e146]:
+        - /url: download/DocFile.doc
+      - link "assertions-test-1-chromium-linux.png" [ref=e147]:
+        - /url: download/assertions-test-1-chromium-linux.png
+      - link "tmpg2bb8lps.txt" [ref=e148]:
+        - /url: download/tmpg2bb8lps.txt
+      - link "r2_test_upload_ya_4e22b.txt" [ref=e149]:
+        - /url: download/r2_test_upload_ya_4e22b.txt
+      - link "r2_upload__ox323_l.txt" [ref=e150]:
+        - /url: download/r2_upload__ox323_l.txt
+      - link "ct834-sample.txt" [ref=e151]:
+        - /url: download/ct834-sample.txt
+      - link "pdf-1mb.pdf" [ref=e152]:
+        - /url: download/pdf-1mb.pdf
+      - link "synthetic-upload.txt" [ref=e153]:
+        - /url: download/synthetic-upload.txt
+      - link "day20-test-file.txt" [ref=e154]:
+        - /url: download/day20-test-file.txt
+      - link "pw-disk-upload.txt" [ref=e155]:
+        - /url: download/pw-disk-upload.txt
+      - link "note.txt" [ref=e156]:
+        - /url: download/note.txt
+      - link "hello.json" [ref=e157]:
+        - /url: download/hello.json
+      - link "cerere-test.txt" [ref=e158]:
+        - /url: download/cerere-test.txt
+      - link "latest.txt" [ref=e159]:
+        - /url: download/latest.txt
+      - link "Resume (3).pdf" [ref=e160]:
+        - /url: download/Resume (3).pdf
+      - link "tmpipg1moqk.txt" [ref=e161]:
+        - /url: download/tmpipg1moqk.txt
+      - link "327b7682-81dc-4891-9d04-660db23bf0f1.txt" [ref=e162]:
+        - /url: download/327b7682-81dc-4891-9d04-660db23bf0f1.txt
+      - link "2_led_landing_page.png" [ref=e163]:
+        - /url: download/2_led_landing_page.png
+      - link "practice-upload-607594129738287028.txt" [ref=e164]:
+        - /url: download/practice-upload-607594129738287028.txt
+      - link "sample-landscape.png" [ref=e165]:
+        - /url: download/sample-landscape.png
+      - link "myfile.txt" [ref=e166]:
+        - /url: download/myfile.txt
+      - link "kat-upload-test.txt" [ref=e167]:
+        - /url: download/kat-upload-test.txt
+      - link "practice-upload-17168319956747028691.txt" [ref=e168]:
+        - /url: download/practice-upload-17168319956747028691.txt
+      - link "testfile.txt" [ref=e169]:
+        - /url: download/testfile.txt
+      - link "Amazon-NewLogo.png" [ref=e170]:
+        - /url: download/Amazon-NewLogo.png
+      - link "tmpida5gzzi.txt" [ref=e171]:
+        - /url: download/tmpida5gzzi.txt
+      - link "win.ini" [ref=e172]:
+        - /url: download/win.ini
+      - link "tmpsjmyae6c.txt" [ref=e173]:
+        - /url: download/tmpsjmyae6c.txt
+      - link "gauntlet.txt" [ref=e174]:
+        - /url: download/gauntlet.txt
+      - link "red.png" [ref=e175]:
+        - /url: download/red.png
+      - link "hello-upload.txt" [ref=e176]:
+        - /url: download/hello-upload.txt
+      - link "Mac_Appium_Java_Flutter_Automation_Setup_Guide.docx" [ref=e177]:
+        - /url: download/Mac_Appium_Java_Flutter_Automation_Setup_Guide.docx
+      - link "sample-upload.txt" [ref=e178]:
+        - /url: download/sample-upload.txt
+      - link "CSVFile.csv" [ref=e179]:
+        - /url: download/CSVFile.csv
+      - link "baseline-hit.txt" [ref=e180]:
+        - /url: download/baseline-hit.txt
+      - link "agreements (23).pdf" [ref=e181]:
+        - /url: download/agreements (23).pdf
+      - link "Abdinoor mohamed research.pdf" [ref=e182]:
+        - /url: download/Abdinoor mohamed research.pdf
+      - link "beta.txt" [ref=e183]:
+        - /url: download/beta.txt
+      - link "report.txt" [ref=e184]:
+        - /url: download/report.txt
+      - link "fileuplaod.png" [ref=e185]:
+        - /url: download/fileuplaod.png
+      - link "menu.pdf" [ref=e186]:
+        - /url: download/menu.pdf
+      - link "practice-upload-5315977282043678616.txt" [ref=e187]:
+        - /url: download/practice-upload-5315977282043678616.txt
+      - link "test.txt" [ref=e188]:
+        - /url: download/test.txt
+      - link "tmp0wa60e_q.txt" [ref=e189]:
+        - /url: download/tmp0wa60e_q.txt
+      - link "Image.PNG" [ref=e190]:
+        - /url: download/Image.PNG
+      - link "Screenshot 2026-09-23 160354.png" [ref=e191]:
+        - /url: download/Screenshot 2026-09-23 160354.png
+      - link "r2_test_upload_7egm4c96.txt" [ref=e192]:
+        - /url: download/r2_test_upload_7egm4c96.txt
+      - link "sample_media_file.png" [ref=e193]:
+        - /url: download/sample_media_file.png
+      - link "sample.png" [ref=e194]:
+        - /url: download/sample.png
+      - link "r2_test_upload_1io18wg2.txt" [ref=e195]:
+        - /url: download/r2_test_upload_1io18wg2.txt
+      - link "upload-1748588370704387107.txt" [ref=e196]:
+        - /url: download/upload-1748588370704387107.txt
+      - link "astra-disposable-upload.txt" [ref=e197]:
+        - /url: download/astra-disposable-upload.txt
+      - link "TextFile.txt" [ref=e198]:
+        - /url: download/TextFile.txt
+      - link "r2_test_upload_h56dcfe4.txt" [ref=e199]:
+        - /url: download/r2_test_upload_h56dcfe4.txt
+      - link "second-upload.txt" [ref=e200]:
+        - /url: download/second-upload.txt
+      - link "abc.txt" [ref=e201]:
+        - /url: download/abc.txt
+      - link "file_1790768212796.pdf" [ref=e202]:
+        - /url: download/file_1790768212796.pdf
+      - link "file1.png" [ref=e203]:
+        - /url: download/file1.png
+      - link "upload-test.txt" [ref=e204]:
+        - /url: download/upload-test.txt
+      - link "puppy.png" [ref=e205]:
+        - /url: download/puppy.png
+      - link "tmpnksq0i1w.txt" [ref=e206]:
+        - /url: download/tmpnksq0i1w.txt
+      - link "fieldbench-sample.txt" [ref=e207]:
+        - /url: download/fieldbench-sample.txt
+      - link "testdata.png" [ref=e208]:
+        - /url: download/testdata.png
+      - link "upload-17103431718648173175.txt" [ref=e209]:
+        - /url: download/upload-17103431718648173175.txt
+      - link "perhaps.txt" [ref=e210]:
+        - /url: download/perhaps.txt
+      - link "ornek.txt" [ref=e211]:
+        - /url: download/ornek.txt
+      - link "test_upload.txt" [ref=e212]:
+        - /url: download/test_upload.txt
+      - link "second-tab.txt" [ref=e213]:
+        - /url: download/second-tab.txt
+      - link "def.txt" [ref=e214]:
+        - /url: download/def.txt
+      - link "baseline-miss.txt" [ref=e215]:
+        - /url: download/baseline-miss.txt
+      - link "practice-upload-9459984405521711153.txt" [ref=e216]:
+        - /url: download/practice-upload-9459984405521711153.txt
+      - link "r2_upload_g_g7owex.txt" [ref=e217]:
+        - /url: download/r2_upload_g_g7owex.txt
+      - link "Shweta Adalikar.pdf" [ref=e218]:
+        - /url: download/Shweta Adalikar.pdf
+      - link "SMART-EXPENSE-TRACKER (1).pptx" [ref=e219]:
+        - /url: download/SMART-EXPENSE-TRACKER (1).pptx
+      - link "puppy01.png" [ref=e220]:
+        - /url: download/puppy01.png
+      - link "tmpjrk6s2sw.txt" [ref=e221]:
+        - /url: download/tmpjrk6s2sw.txt
+      - link "test-file.txt" [ref=e222]:
+        - /url: download/test-file.txt
+      - link "brooke-cagle-H6We-lFziBg-unsplash.jpg" [ref=e223]:
+        - /url: download/brooke-cagle-H6We-lFziBg-unsplash.jpg
+      - link "WebOrder_Login_All.csv" [ref=e224]:
+        - /url: download/WebOrder_Login_All.csv
+      - link "reduck-test.png" [ref=e225]:
+        - /url: download/reduck-test.png
+      - link "testneo_upload_dla8_3t0.txt" [ref=e226]:
+        - /url: download/testneo_upload_dla8_3t0.txt
+      - link "file_1790768252818.pdf" [ref=e227]:
+        - /url: download/file_1790768252818.pdf
+      - link "sample_h5kxRw.txt" [ref=e228]:
+        - /url: download/sample_h5kxRw.txt
+      - link "dummy.pdf" [ref=e229]:
+        - /url: download/dummy.pdf
+      - link "practice-upload-16274978531860258059.txt" [ref=e230]:
+        - /url: download/practice-upload-16274978531860258059.txt
+      - link "images.png" [ref=e231]:
+        - /url: download/images.png
+  - generic [ref=e233]:
+    - separator [ref=e234]
+    - generic [ref=e235]:
+      - text: Powered by
+      - link "Elemental Selenium" [ref=e236]:
+        - /url: http://elementalselenium.com/
+```
